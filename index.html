@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Steeaming App</title>
+</head>
+
+<style>
+  body {
+    margin:40px auto;
+    max-width:650px;
+    background-color: #444;
+  }
+</style>
+
+<script>
+    const functionToExecute = function(){
+        alert("hi")
+    }
+</script>
+<body>
+    <video ID="videoPlayer"  width="400" controls autoplay>
+        <source src="/playvideo" type="video/mp4">
+    </video>
+    <form action="/download-file">
+    <button type="submit">Download </button>
+    </form>
+    
+
+</body> 
+</html>
